@@ -1,0 +1,14 @@
+Metric,Value
+Number of Nodes,10000
+Number of Edges,29958
+Average Degree,5.9916
+Graph Density,0.0005992199219921992
+Average Clustering Coefficient,0.002244648297759135
+Connected Components,1072
+Largest Connected Component Nodes,8913
+Largest Connected Component Edges,29942
+Radius (Largest Connected Component),6
+Diameter (Largest Connected Component),10
+Number of Communities,1096
+Modularity,0.35842029376320567
+Betweenness Method,Approximate; k=500
