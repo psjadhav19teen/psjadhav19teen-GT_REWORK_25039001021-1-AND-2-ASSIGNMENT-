@@ -1,0 +1,60 @@
+Graph Theory Mini Project - Neo4j Code
+Name: Priya Jadhav
+PRN: 25039001021
+
+1. NODE VERIFICATION
+MATCH (n)
+RETURN labels(n)[0] AS Label, count(n) AS Count
+ORDER BY Count DESC;
+
+2. RELATIONSHIP VERIFICATION
+MATCH ()-[r]->()
+RETURN DISTINCT type(r) AS RelationshipType
+ORDER BY RelationshipType;
+
+3. FULL RELATIONSHIP DISPLAY
+MATCH path =
+  (c:Customer)-[:PLACED]->(o:Order)-[:CONTAINS]->(p:Product),
+  (o)-[:SHIPPED_TO]->(l:Location)
+RETURN path
+LIMIT 25;
+
+4. INSIGHT 1 - PRODUCT CENTRALITY
+MATCH (c:Customer)-[:PLACED]->(o:Order)-[r:CONTAINS]->(p:Product)
+WITH
+    p.`productName` AS Product,
+    p.category AS Category,
+    p.subCategory AS SubCategory,
+    count(DISTINCT c) AS UniqueCustomers,
+    count(DISTINCT c.segment) AS SegmentsReached,
+    round(sum(r.sales)) AS TotalSales,
+    round(sum(r.profit)) AS TotalProfit
+RETURN
+    Product,
+    Category,
+    SubCategory,
+    UniqueCustomers,
+    SegmentsReached,
+    TotalSales,
+    TotalProfit
+ORDER BY UniqueCustomers DESC, TotalSales DESC
+LIMIT 15;
+
+5. INSIGHT 2 - CUSTOMER SEGMENT x PRODUCT CATEGORY
+MATCH (c:Customer)-[:PLACED]->(o:Order)-[r:CONTAINS]->(p:Product)
+WITH
+    c.segment AS Segment,
+    p.category AS Category,
+    count(DISTINCT c) AS Customers,
+    count(DISTINCT p) AS Products,
+    sum(r.sales) AS TotalSales,
+    sum(r.profit) AS TotalProfit
+RETURN
+    Segment,
+    Category,
+    Customers,
+    Products,
+    round(TotalSales, 2) AS TotalSales,
+    round(TotalProfit, 2) AS TotalProfit
+ORDER BY TotalProfit DESC
+LIMIT 10;

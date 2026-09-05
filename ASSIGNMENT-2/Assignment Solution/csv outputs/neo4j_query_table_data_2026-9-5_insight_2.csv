@@ -1,0 +1,10 @@
+Segment,Category,Customers,Products,TotalSales,TotalProfit
+Consumer,Technology,2025,2088,2586980.0,361231.2
+Consumer,Office Supplies,2457,5075,2103038.0,267486.59
+Corporate,Technology,1174,1667,1499854.0,198185.32
+Corporate,Office Supplies,1422,4323,1223294.0,176861.33
+Consumer,Furniture,1948,1944,2228150.0,162979.26
+Home Office,Technology,709,1297,952015.0,137983.73
+Home Office,Office Supplies,895,3451,744490.0,104549.97
+Corporate,Furniture,1127,1574,1313030.0,88226.94
+Home Office,Furniture,690,1188,755493.0,51606.27

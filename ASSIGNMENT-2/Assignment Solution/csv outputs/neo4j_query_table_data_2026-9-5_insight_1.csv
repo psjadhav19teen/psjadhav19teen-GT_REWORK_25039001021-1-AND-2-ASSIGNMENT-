@@ -1,0 +1,91 @@
+ProductDetails,UniqueCustomers,SegmentsReached
+"{
+  subCategory: Art,
+  productId: OFF-AR-10003651,
+  category: Office Supplies,
+  productName: Newell 350
+}",40,3
+"{
+  subCategory: Binders,
+  productId: OFF-BI-10003708,
+  category: Office Supplies,
+  productName: Acco Four Pocket Poly Ring Binder with Label Holder, Smoke, 1""
+}",37,3
+"{
+  subCategory: Art,
+  productId: OFF-AR-10003829,
+  category: Office Supplies,
+  productName: Newell 35
+}",34,3
+"{
+  subCategory: Art,
+  productId: OFF-AR-10004825,
+  category: Office Supplies,
+  productName: BIC Canvas, Fluorescent
+}",34,3
+"{
+  subCategory: Binders,
+  productId: OFF-BI-10002570,
+  category: Office Supplies,
+  productName: Acco Binder Covers, Clear
+}",33,3
+"{
+  subCategory: Binders,
+  productId: OFF-BI-10002799,
+  category: Office Supplies,
+  productName: SlimView Poly Binder, 3/8""
+}",32,3
+"{
+  subCategory: Art,
+  productId: OFF-AR-10002805,
+  category: Office Supplies,
+  productName: Boston Sketch Pad, Blue
+}",31,3
+"{
+  subCategory: Binders,
+  productId: OFF-BI-10003650,
+  category: Office Supplies,
+  productName: GBC DocuBind 300 Electric Binding Machine
+}",29,3
+"{
+  subCategory: Binders,
+  productId: OFF-BI-10001249,
+  category: Office Supplies,
+  productName: Avery Heavy-Duty EZD View Binder with Locking Rings
+}",28,3
+"{
+  subCategory: Art,
+  productId: OFF-AR-10000091,
+  category: Office Supplies,
+  productName: BIC Markers, Fluorescent
+}",28,3
+"{
+  subCategory: Chairs,
+  productId: FUR-CH-10003354,
+  category: Furniture,
+  productName: Novimex Bag Chairs, Black
+}",28,3
+"{
+  subCategory: Binders,
+  productId: OFF-BI-10001808,
+  category: Office Supplies,
+  productName: Ibico Index Tab, Clear
+}",27,3
+"{
+  subCategory: Binders,
+  productId: OFF-BI-10000542,
+  category: Office Supplies,
+  productName: Ibico Binder Covers, Recycled
+}",27,3
+"{
+  subCategory: Art,
+  productId: OFF-AR-10000594,
+  category: Office Supplies,
+  productName: Binney & Smith Highlighters, Water Color
+}",26,3
+"{
+  subCategory: Art,
+  productId: OFF-BIN-10002061,
+  category: Office Supplies,
+  productName: Binney & Smith Sketch Pad, Blue
+}",26,3
